@@ -1,0 +1,3 @@
+--INSERT INTO users(id, name, username, password) VALUES (1, 'admin', 'admin', '$2a$12$BbQxZS12mLfjfhQL5.9JkOCP/0JYHnV9ED.ah83gMJXcIrlL/b8Dy'), (2, 'dev', 'dev', '$2a$12$0pI1R6wUQcndNUbXQS5f2O/LwVT.Zarf9bHRzokhj/TxCAYI/rAku'), (3, 'Ivo', 'Ivo', '$2a$12$0pI1R6wUQcndNUbXQS5f2O/LwVT.Zarf9bHRzokhj/TxCAYI/rAku'), (4, 'Ante', 'Ante', '$2a$12$0pI1R6wUQcndNUbXQS5f2O/LwVT.Zarf9bHRzokhj/TxCAYI/rAku');
+--INSERT INTO board (id, name) VALUES (1, 'calendar_enhancements'), (2, 'late_cancel_no_show');
+--INSERT INTO board_users (board_id, user_id) VALUES (1, 1), (1, 2), (2, 1), (1, 3);
